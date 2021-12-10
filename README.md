@@ -11,6 +11,12 @@ This is literally my first golang app and I have no idea if I am generating the 
 ## Is it malware?
 If you set streaming or a sufficiently hard(or impossible) pattern, you will use 100% CPU on all available threads until you manually exit the app.
 
+## Building
+
+```bash
+go build vanityssh.go
+```
+
 ## Usage
 
 Using vanityssh with no switches results in it returning the first generated ssh key and write it to id_ed25519 and id_ed25519.pub in the current directory.
